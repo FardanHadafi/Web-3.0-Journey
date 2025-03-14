@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_b",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "b",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Solidity Basic/Constructor.sol": "Constructor2"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Solidity Basic/Constructor.sol": {
+			"keccak256": "0x9f8542e0f948fbb91e3331c1c936701068e9f5a7466cc7d2f9b5ada665c03fff",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e85a38b57e80c9c5e92b8ef9fff1e621d9381407268c9504be3a975352981f64",
+				"dweb:/ipfs/QmaJDB2kAFqztkTfSQEhzjeJ2gfJmyCoWXiWB4PwP9mvCX"
+			]
+		}
+	},
+	"version": 1
+}

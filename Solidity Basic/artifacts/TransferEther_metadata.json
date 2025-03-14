@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getEther",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sendEther",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Solidity Basic/Transfering Ether.sol": "TransferEther"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Solidity Basic/Transfering Ether.sol": {
+			"keccak256": "0x35fa3d21bf3050832f46f252423e1ed2922573d5e392671ae8e7d3c5e8b59e98",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bcd33baaa30925e373a41eee3f5f18edf1c976a5e7014e2eae21b1691a768462",
+				"dweb:/ipfs/QmPB2b87LnAUqpwaTDoVtCmnKFPwfDxz3gytGVFHYMECJr"
+			]
+		}
+	},
+	"version": 1
+}

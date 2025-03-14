@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "myAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Solidity Basic/Address.sol": "Address"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Solidity Basic/Address.sol": {
+			"keccak256": "0x9a42b2ee0efee105ea3ccc47fd06463698d5295f3c5dc1a9f426acf7d7b229cc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://472ee3d2d111e903ea03166787946e87206ee20fa19899dda197a7400133c488",
+				"dweb:/ipfs/QmSUXqX4K8StHQw6wKxbKqWXXT9aKwVPGqieCtjCTK426i"
+			]
+		}
+	},
+	"version": 1
+}
