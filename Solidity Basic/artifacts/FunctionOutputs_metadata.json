@@ -1,0 +1,107 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "assigned",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "c",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "destructuringOutputs",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "multipleOutputs",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "namedOutputs",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "b",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Solidity Basic/Function Outputs.sol": "FunctionOutputs"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Solidity Basic/Function Outputs.sol": {
+			"keccak256": "0x5062c0b47cd4a8278d8fc274932bc3fbda691e4ba996817f0f329626eeee047a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8d132efff732bcf99cd720234b91f38d54b2cecc4861e7876d7af4874d9bcdb0",
+				"dweb:/ipfs/QmQtSUAuKgr1hGzj1dwceqqeqbXzHUnnVwSBpGdcfE1kV6"
+			]
+		}
+	},
+	"version": 1
+}
