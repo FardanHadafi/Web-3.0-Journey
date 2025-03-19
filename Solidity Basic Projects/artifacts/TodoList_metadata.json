@@ -22,44 +22,13 @@
 				"inputs": [
 					{
 						"internalType": "string",
-						"name": "_name",
+						"name": "_text",
 						"type": "string"
 					}
 				],
 				"name": "insert",
 				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "index",
-						"type": "uint256"
-					}
-				],
-				"name": "read",
-				"outputs": [
-					{
-						"components": [
-							{
-								"internalType": "string",
-								"name": "name",
-								"type": "string"
-							},
-							{
-								"internalType": "bool",
-								"name": "completed",
-								"type": "bool"
-							}
-						],
-						"internalType": "struct ToDoList.Todo",
-						"name": "",
-						"type": "tuple"
-					}
-				],
-				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -74,7 +43,7 @@
 				"outputs": [
 					{
 						"internalType": "string",
-						"name": "name",
+						"name": "text",
 						"type": "string"
 					},
 					{
@@ -90,7 +59,7 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_index",
+						"name": "index",
 						"type": "uint256"
 					},
 					{
@@ -118,7 +87,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Solidity Basic Projects/ToDoList.sol": "ToDoList"
+			"Solidity Basic Projects/ToDoList.sol": "TodoList"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -133,11 +102,11 @@
 	},
 	"sources": {
 		"Solidity Basic Projects/ToDoList.sol": {
-			"keccak256": "0x07cf3d506c390e59712d335ce285fe357a3e8a5274159ac066335bde33bc72ab",
+			"keccak256": "0x7da34f1f430dfd6088f4f893d317eba5939467b9060b6cb26ebd9d6333eeee17",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://db7554bce19b8bce29eb8409418ce9bcdf2ad296c0848eccdecabda2236a2a97",
-				"dweb:/ipfs/QmYTXBEAY68KuchNZgMKX62oNgpryHvmo9qguZS3jhkwXA"
+				"bzz-raw://470df68b89ab2b00fa46dcc7b48ecf81844c2bf332e0ac17114a25a3d9ac4066",
+				"dweb:/ipfs/Qmaxa7YuSryyJG6pLSXjjfJvKYWM6wM6Sqmp4ekfjYVHm7"
 			]
 		}
 	},

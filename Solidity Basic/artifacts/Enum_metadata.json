@@ -7,23 +7,10 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "checkEnumValue",
+				"name": "get",
 				"outputs": [
 					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getEnumValue",
-				"outputs": [
-					{
-						"internalType": "enum Enum.Button",
+						"internalType": "enum Enum.Status",
 						"name": "",
 						"type": "uint8"
 					}
@@ -34,27 +21,65 @@
 			{
 				"inputs": [
 					{
-						"internalType": "enum Enum.Button",
-						"name": "_x",
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "packages",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "enum Enum.Status",
+						"name": "status",
 						"type": "uint8"
 					}
 				],
-				"name": "setEnumValue",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "reset",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "enum Enum.Status",
+						"name": "_status",
+						"type": "uint8"
+					}
+				],
+				"name": "set",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "x",
+				"name": "status",
 				"outputs": [
 					{
-						"internalType": "enum Enum.Button",
+						"internalType": "enum Enum.Status",
 						"name": "",
 						"type": "uint8"
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "update",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -86,11 +111,11 @@
 	},
 	"sources": {
 		"Solidity Basic/Enum.sol": {
-			"keccak256": "0x658acb0d0ebb177a5896845b2ac1159bad1ec4ea1459e2eb7662663e8e90ceb1",
+			"keccak256": "0x20f9ed4d0ff08c081472234c8718c228861ad4e59e0a4919cdfb319438cea7d4",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b51b2540f73ceb5ee8c10aa45cdb4cc8fea8e2d3912cfad8cdfda54ae6e740e4",
-				"dweb:/ipfs/QmUFxTNWMCVretnF5nvmqV7KHoAdXtiSCXKwyhWrzKQgmG"
+				"bzz-raw://6360711ce7755bc071c60feeec934676a05b1fda4d84f9fe606aa4ea032e1d3c",
+				"dweb:/ipfs/QmZWFygBhvY6RTp77HwpL2MDZkQQRfgnV1QcqXqQx6ZLve"
 			]
 		}
 	},
