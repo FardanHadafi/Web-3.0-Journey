@@ -1,37 +1,30 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-contract Enum {
-    enum Status {
-        pending,
-        accepted,
-        shipped,
-        rejected,
-        canceled
+contract Enums {
+    enum Choices {goStraight, turnLeft, turnRight, stop}
+
+    Choices public choice;
+
+    Choices constant defaultChoice = Choices.goStraight;
+
+    function setChoice () public {
+        choice = Choices.stop;
     }
 
-    Status public status;
-
-    struct Package { // Example combining enum with another data types
-        string name;
-        Status status;
+    function getChoice() public view returns(Choices) {
+        return choice;
     }
 
-    Package[] public packages; // Example combining enum with another data types
-
-    function set(Status _status) external { // Set the Status enum by input 
-        status = _status;
+    function getDefaultChoiceValueType() public pure returns(uint) {
+        return uint(defaultChoice);
     }
 
-    function get() external view returns (Status) { // Return all Status enum
-        return status;
+    function getMaxValue() public pure returns(Choices) {
+        return type(Choices).max;
     }
 
-    function update() external { // Update enum with specific status
-        status = Status.shipped;
-    }
-
-    function reset() external { // Reset all enum to original value 
-        delete status;
+    function getMinValue() public pure returns(Choices) {
+        return type(Choices).min;
     }
 }

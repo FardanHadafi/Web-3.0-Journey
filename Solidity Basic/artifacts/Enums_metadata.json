@@ -7,10 +7,10 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "get",
+				"name": "choice",
 				"outputs": [
 					{
-						"internalType": "enum Enum.Status",
+						"internalType": "enum Enums.Choices",
 						"name": "",
 						"type": "uint8"
 					}
@@ -19,65 +19,60 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "getChoice",
+				"outputs": [
+					{
+						"internalType": "enum Enums.Choices",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getDefaultChoiceValueType",
+				"outputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "packages",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "name",
-						"type": "string"
-					},
-					{
-						"internalType": "enum Enum.Status",
-						"name": "status",
-						"type": "uint8"
-					}
-				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "reset",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "enum Enum.Status",
-						"name": "_status",
-						"type": "uint8"
-					}
-				],
-				"name": "set",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "status",
+				"name": "getMaxValue",
 				"outputs": [
 					{
-						"internalType": "enum Enum.Status",
+						"internalType": "enum Enums.Choices",
 						"name": "",
 						"type": "uint8"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "update",
+				"name": "getMinValue",
+				"outputs": [
+					{
+						"internalType": "enum Enums.Choices",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setChoice",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -96,7 +91,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Solidity Basic/Enum.sol": "Enum"
+			"Solidity Basic/Enum.sol": "Enums"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -111,11 +106,11 @@
 	},
 	"sources": {
 		"Solidity Basic/Enum.sol": {
-			"keccak256": "0x9f7fb9aeca97688fc081fb2653615f3dd772516983606661956d7b580245c82f",
+			"keccak256": "0x1082094c78b1748f6e44352841fa5993c9be4f9dcca8e82ac4729a5bf6e1746b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://cd1a60eceb80257fa52e52e995a77a7c90c41919304c7c024e8c274c51f1e3b9",
-				"dweb:/ipfs/QmTEfigzz6NN6nPWBNrznykAVnQqZqBNKSdci6cJ7Uv2EA"
+				"bzz-raw://723e81962c3503f101d3d1595d499b47ae93a59a95eb91e86a6c67650e0b3216",
+				"dweb:/ipfs/QmTmBRKwM7mDsVpJpXSawCRnvjNE9qKQcn9m5cPQMBLkVe"
 			]
 		}
 	},
