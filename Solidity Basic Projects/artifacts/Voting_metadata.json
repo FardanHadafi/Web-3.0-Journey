@@ -8,6 +8,49 @@
 			{
 				"inputs": [
 					{
+						"internalType": "address[]",
+						"name": "_members",
+						"type": "address[]"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "CastVote",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "ProposalCreated",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "uint256",
 						"name": "proposalIndex",
 						"type": "uint256"
@@ -70,6 +113,11 @@
 						"internalType": "uint256",
 						"name": "noCount",
 						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "executed",
+						"type": "bool"
 					}
 				],
 				"stateMutability": "view",
@@ -104,11 +152,11 @@
 	},
 	"sources": {
 		"Solidity Basic Projects/Voting.sol": {
-			"keccak256": "0x23501973a7a70af5a4081e50924ddde8060eaaa5fe16181d4f27a10477e98aba",
+			"keccak256": "0x4054a165bf6f3f7d0ea5546390562eecf1c010b1ac50dcf9f559f6b4fa9df808",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://09777a4cdf95f90a64b507a767734fb248e7a9681f63a394925ba8261fe7376c",
-				"dweb:/ipfs/QmbD7uXJD5RzsH8XzkHkfkCRmaT2FULBfM64jLWrAEeQM1"
+				"bzz-raw://6c7bdb2ae654806c51914539173069bda2639eba77bb561390d08703a0ce0e43",
+				"dweb:/ipfs/QmcpeNeju4FTNmFn5jHHT1TtkdGbrydLvmecptn3ToK7wj"
 			]
 		}
 	},
